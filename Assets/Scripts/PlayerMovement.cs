@@ -10,7 +10,7 @@ public class PlayerMovement : MonoBehaviour
     private float playerSpeed = 2.0f;
     private float jumpHeight = 1.0f;
     private float gravityValue = -9.81f;
-
+  
     private void Start()
     {
         controller = GetComponent<CharacterController>();
